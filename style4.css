@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 100px; /* Adjusted size for profile photo */
+    border-radius: 50%; /* Circular photo */
+    margin-top: 10px;
+}
+
+.info, .assignment, .courses {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* Limit the width */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007BFF;
+}
+
+.certificate {
+    width: 80%; /* Adjusted to fit within the container */
+    max-width: 300px; /* Limit max width for certificates */
+    margin: 10px 0; /* Space between certificates */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.signature {
+    width: 150px; /* Adjusted size for signature */
+    margin-top: 10px;
+}
